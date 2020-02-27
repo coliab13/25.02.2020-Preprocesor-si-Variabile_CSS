@@ -1,0 +1,21 @@
+/* Decoram citeva variabile la nivel global*/
+:root{
+ --color:cyan;
+ --bg-color: #333;
+ --size: 2em;
+ --font: Arial;
+
+ /* --mobile: 1000px;  - se poate in de folosit in @media pentru a usura adaptivitatea */ 
+}
+button{
+    background-color: var(--bg-color);
+    font-family: var(--font);
+    padding: var(--size);
+    color: var(--color);
+    font-size: calc(0.7 * var(--size));
+}
+@media (max-width: 1000px){
+    button span{
+        display: none;
+    }
+}

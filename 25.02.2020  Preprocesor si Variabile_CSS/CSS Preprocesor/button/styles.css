@@ -1,0 +1,25 @@
+body {
+  color: red;
+  background-color: #333333;
+  margin: 100px;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  font-size: 25px;
+  border-radius: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b3ffb3), color-stop(#004d00), to(#b3ffb3));
+  background-image: linear-gradient(#b3ffb3, #004d00, #b3ffb3);
+  color: white;
+  border: 3px solid lightgreen;
+  -webkit-box-shadow: 0 0 5px 2px black;
+          box-shadow: 0 0 5px 2px black;
+}
+
+button:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#004d00), color-stop(#b3ffb3), to(#004d00));
+  background-image: linear-gradient(#004d00, #b3ffb3, #004d00);
+  border-color: #004d00;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,27 @@
+// declarma variabile care se folosesc daor in SCSS (poti face variabile care  executa  calcule matematice  ex : $size*0.25  - unde $size a fost stabilit in variabila ca 100px//
+$color-light: green;
+$color-dark: #333333;
+$size: 100px;
+
+// Apasam pe butonul de jos 'wach scss' si se creeaza un document styles.css care il conectam la html
+body{
+    color: red;
+    background-color: $color-dark;
+    margin: 100px;
+}
+button{
+    width: $size;
+    height: $size;
+    font-size: $size*0.25;
+    border-radius: 100%;
+    // lighten - ($color, %) -  lighten - deschide  culorile
+    // darken - ($color, %) - darken - inchide culorile
+    background-image: linear-gradient(lighten($color-light, 60%), darken($color-light, 10%), lighten($color-light, 60%));
+    color: white;
+    border: $size*0.03 solid lightgreen;
+    box-shadow: 0 0 $size*0.05 $size*0.02 darken($color-light, 90%);
+}
+button:hover{
+    background-image: linear-gradient(darken($color-light, 10%), lighten($color-light, 60%), darken($color-light, 10%));  
+    border-color: darken($color-light, 10%);
+}

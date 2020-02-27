@@ -1,0 +1,10 @@
+CSS PREPROCESSES 
+SCSS, SASS, LESS, Stylus - toate aceste proceseoare sunt la fel,  executa aceleasi procese pentru a inbogati css - ul. Se poate folosi si in programare
+Nici un brawuser nu suporta aceste tehnologii fara sa le prelucrezi . si se face in felul urmator :
+1. Creem un fisier style.SCSS -> [COMPILATOR]  -> STYLE.CSS - >HTML
+* COMPILATORU - este un script scris intrun limbaj de programare .Noi o sa il folosim pe acel din VSCode (extension) - ne ducem in extensii in VSCode  - SI CAUTAM Live Sass Compiler - 
+
+a) Se cere sa stii ( cer angajatorii)
+b) Ne ajuta sa intelegem programarea
+https://sass-scss.ru/
+https://sass-lang.com/
